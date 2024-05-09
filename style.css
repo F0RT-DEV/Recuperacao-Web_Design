@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    background-color: #0bd2c3;
+    
+}
+
+#logo{
+    width: 200px;
+    height: 110px;
+    margin: 0px 0px 0px 40px;
+}
+
+ul{
+    padding: 20px;
+    display: flex;
+    margin: 0px 40px 0px 0px;
+}
+
+li{
+    margin-left: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*--------------     FIM HEADER     -----------*/
+
+#banner{
+    width: 100%;
+    height: 250px;
+}
+
+/*--------------     FIM BANNER    -----------*/
+
+.conteudo{
+    height: 900px;
+    display: flex;
+}
+
+#conteudo-left{
+    float: left;
+    text-align: center;
+}
+
+#conteudo-left p{
+   font-size: 15px;
+}
+
+#conteudo-left h2{
+    font-size: 30px;
+}
+
+#conteudo-right{
+    float: right;
+    text-align: center;
+}
+
+#conteudo-right p{
+    font-size: 15px;
+}
+ 
+#conteudo-right h2{
+    font-size: 30px;
+}
+
+#conteudo-right h3{
+    font-size: 30px;
+}
+
+#conteudo-right h4{
+    font-size: 30px;
+}
+/*--------------     FIM CONTEUDO     -----------*/
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#redessociais{
+    display: flex;
+    justify-content: center;
+}
+/*--------------     FIM FOOTER     -----------*/
+
+
+
+/*--------------     FIM FORMULARIO     -----------*/
+.formulario{
+    padding: 200px;
+    height: 200px;
+    text-align: center;
+}
+
+#interface h1{
+    padding: 0px 0px 20px 0px;
+}
+
+form{
+    max-width: 500px;
+    height: 100px;
+    gap: 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    width: 100px;
+}
+
+.btn{
+    padding: 25px 0px 0px 0px;
+}
